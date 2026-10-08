@@ -1,7 +1,43 @@
 # Cafeteria
 
 ## Objetivos
-
+1-Nome do caso de uso		FAZER O PEDIDO
+identificador		AM-01
+Ator   principal 		cliente
+Ator   secundário 		vendedor
+Resumo 		FAZER UM PEDIDO PELO APP
+Pré-condição		"Fazer o login, identificar a comanda/mesa"
+Pôs-condição		N.A.
+Ação do Ator		Resposta do Sistema
+1	Abrir o cardápio	
+2	Seleciona o item no carrinho	
+3	Escolhe o método de pagamento	
+4		Compra finalizada
+5		Envia o pedido para cozinha
+2-Nome do caso de uso		CADASTRAR PRODUTO
+identificador		AM-02
+Ator   principal 		vendedor
+Ator   secundário 		N.A.
+Resumo 		Cadastrar o produto no cardápio
+Pré-condição		Fazer o login
+Pôs-condição		N.A.
+Ação do Ator		Resposta do Sistema
+1	Clicar no botão cadastrar	
+2		"Nome do produto, categoria, preço"
+3	Clicar em finalizar	
+4		Salvando produto
+3-Nome do caso de uso		REALIZAR O PAGAMENTO
+identificador		AM-03
+Ator   principal 		cliente
+Ator   secundário 		N.A.
+Resumo 		Cadastrar o produto no cardápio
+Pré-condição		Fazer o login
+Pôs-condição		N.A.
+Ação do Ator		Resposta do Sistema
+1	Clicar no botão cadastrar	
+2		"Nome do produto, categoria, preço"
+3	Clicar em finalizar	
+4		Salvando produto
 
 ### Stack Tecnlógico
 - Backend: PHP estruturado com sessões nativas
@@ -9,9 +45,7 @@
 - Frontend: HTML5, PHP, CSS, Tailwind CSS
 
 #### Regras de negócio (CORE)
-Tratar senhas de usuários com hash bcript
-O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
-qualquer usuário, para auditorias futuras.
+
 <img width="958" height="551" alt="image" src="https://github.com/user-attachments/assets/e4d14719-306c-4c84-9e3f-624b9a458890" /> 
 
 
