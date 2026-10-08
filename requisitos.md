@@ -2,6 +2,7 @@
 
 ## Objetivos
 
+
 ### Stack Tecnlógico
 - Backend: PHP estruturado com sessões nativas
 - Banco de dados: MySQL (PDO para segurança)
@@ -11,6 +12,8 @@
 Tratar senhas de usuários com hash bcript
 O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
 qualquer usuário, para auditorias futuras.
+<img width="958" height="551" alt="image" src="https://github.com/user-attachments/assets/e4d14719-306c-4c84-9e3f-624b9a458890" /> 
+
 
 ##### Regras Globais
 - Use sempre PDO para conexão e queries no MySQL para evitar SQL Injections
